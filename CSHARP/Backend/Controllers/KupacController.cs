@@ -19,6 +19,7 @@ namespace Backend.Controllers
 
         public IActionResult Get()
         {
+          
             return new JsonResult(_contex.Kupci.ToList());
         }
 

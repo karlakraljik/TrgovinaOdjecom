@@ -9,5 +9,11 @@ namespace Backend.Data
             : base(options){
         }
         public DbSet<Kupac> Kupci {  get; set; }
+        public DbSet<Proizvod> Proizvodi { get; set;}
+        public DbSet<Racun>Racuni { get; set;}
+        public DbSet<Stavka> Stavke { get; set;}
+
+        public DbSet<Osoba> Osobe { get; set;}
+        
     }
 }
